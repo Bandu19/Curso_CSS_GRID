@@ -42,3 +42,20 @@ Minuto 6:14.
   grid-column: 1 / -1;
   grid-row: 1 / span 3; /* o grid-row: span 3; */
 }
+
+.content2 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: minmax(100px, auto) repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.content2 .imagen {
+  background: #ff8000;
+}
+
+.content2 .imagen2 {
+  grid-column: 1 / -1;
+  grid-row: 2 /3;
+  text-align: left;
+}
