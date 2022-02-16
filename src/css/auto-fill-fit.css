@@ -1,0 +1,16 @@
+.content {
+  display: grid;
+  gap: 20px;
+  /* En caso de que tengas muchos "DIV" se ocupa fill
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+  */
+  /* En caso de que tengas pocos "DIV" se ocupa fit*/
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.content2 {
+  display: grid;
+  gap: 20px;
+
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
