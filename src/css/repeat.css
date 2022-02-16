@@ -1,0 +1,18 @@
+/*Esta funcion de repeat nos va permitir
+evitar escribir mas columnas manualmente*/
+.content {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(6, 1fr); /*MUCHO MEJOR*/
+  /*
+  No mucho mejor:  
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+  */
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.content2 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: minmax(100px, auto) repeat(5, 1fr);
+}
