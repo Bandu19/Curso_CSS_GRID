@@ -1,0 +1,17 @@
+.content {
+  display: grid;
+  gap: 20px;
+  height: 700px;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+
+  /*Alinea Horizontalmente*/
+
+  justify-content: space-evenly;
+
+  /*normal | space-evenly | start        | center | end 
+           | center       | space-around | space-between
+  */
+
+  align-content: space-evenly;
+}
